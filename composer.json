@@ -1,0 +1,26 @@
+{
+    "name": "simtechdev/app",
+    "type": "package",
+    "description": "App",
+    "keywords": [
+        "simtechdev",
+        "App"
+    ],
+    "homepage": "https://github.com/simtechdev/app",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniil Bazhenov",
+            "email": "dbazhenov@simtechdev.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "~5.5|~7.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "Simtechdev\\App\\": "src"
+        }
+    }
+}
