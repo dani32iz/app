@@ -1,6 +1,6 @@
 <?php
 
-namespace Simtechdev\App;
+namespace Shopify\App;
 
 class Connect
 {
